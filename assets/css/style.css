@@ -14,7 +14,6 @@ body {
 }
 /* HEADER */
 header {
-  text-align: center;
   background-color: rgb(0, 136, 170);
   width: 250px;
   padding-block: 30px;
@@ -22,16 +21,20 @@ header {
   margin-inline: auto;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.705);
   background: linear-gradient(90deg, rgb(0, 136, 170));
+  font-family: "Poppins", sans-serif;
 }
 
 div > p {
   color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
-nav li {
+.my-list {
   list-style: none;
-  line-height: 20px;
+  line-height: 15px;
   color: white;
+  text-align: center;
 }
 
 /* MAIN */
@@ -53,7 +56,7 @@ article h3 {
 }
 
 .mario {
-  font-size: 15px;
+  font-size: 12px;
   padding-inline: 15px;
   font-weight: 300;
 }
@@ -74,12 +77,14 @@ article h3 {
   padding-inline: 15px;
   line-height: 15px;
 }
+ul {
+  padding-inline-start: 40px;
+  padding-right: 20px;
+}
 
 ul li {
   font-size: 12px;
-  padding-inline: 25px;
   line-height: 15px;
-  list-style: none;
 }
 
 .formattazione {
@@ -94,11 +99,19 @@ ul li {
   line-height: 15px;
 }
 
+.p3 span {
+  color: rgb(255, 0, 254);
+}
+
+ol {
+  padding-inline-start: 40px;
+  padding-right: 20px;
+}
+
 ol li {
   font-size: 12px;
-  padding-inline: 25px;
+
   line-height: 15px;
-  list-style: none;
 }
 
 .p4 {
@@ -116,8 +129,12 @@ caption {
 }
 table {
   width: 100%;
-
   text-align: center;
+  padding-inline: 20px;
+}
+
+.my-th {
+  width: 25%;
 }
 
 .anno {
@@ -133,7 +150,7 @@ table {
 }
 
 .p5 a {
-  color: rgb(12, 207, 241);
+  color: rgb(0, 153, 204);
 }
 
 iframe {
@@ -143,15 +160,18 @@ iframe {
   border-radius: 30px;
 }
 
+.novita {
+  text-align: center;
+  font-size: 20px;
+}
+
 section {
   font-size: 12px;
   padding-inline: 15px;
+  padding-block: 15px;
   line-height: 15px;
-  background-color: grey;
-}
-
-fieldset {
-  display: inline-block;
+  background-color: lightgray;
+  margin-inline: 10px;
 }
 
 fieldset button {
@@ -159,6 +179,103 @@ fieldset button {
   background-color: rgb(51, 102, 204);
 }
 
+.articoli {
+  text-align: center;
+  font-size: 18px;
+  padding-inline: 15px;
+  line-height: 15px;
+}
+
+.validare {
+  font-size: 12px;
+  padding-inline: 15px;
+  padding-block: 15px;
+  line-height: 15px;
+  background-color: lightgray;
+  margin-inline: 10px;
+}
+
+.validare p {
+  font-size: 10px;
+  text-align: left;
+  color: black;
+}
+
+.validare :nth-child(3) {
+  font-size: 9px;
+  text-align: right;
+}
+
+.validare a {
+  color: rgb(0, 153, 204);
+}
+
+.correggere {
+  font-size: 12px;
+  padding-inline: 15px;
+  padding-block: 15px;
+  line-height: 15px;
+  background-color: lightgray;
+  margin-inline: 10px;
+}
+
+.correggere p {
+  font-size: 10px;
+  text-align: left;
+  color: black;
+}
+
+.correggere :nth-child(3) {
+  font-size: 9px;
+  text-align: right;
+}
+
+.correggere a {
+  color: rgb(0, 153, 204);
+}
+
+.meno {
+  font-size: 12px;
+  padding-inline: 15px;
+  padding-block: 15px;
+  line-height: 15px;
+  background-color: lightgray;
+  margin-inline: 10px;
+}
+
+.meno p {
+  font-size: 10px;
+  text-align: left;
+  color: black;
+}
+
+.meno :nth-child(3) {
+  font-size: 9px;
+  text-align: right;
+}
+
+.meno a {
+  color: rgb(0, 153, 204);
+}
+
+footer {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(0, 85, 102);
+  padding-block: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  border: 10px;
+  margin-block: 20px;
+  color: white;
+  font-weight: 200;
+}
+
+footer a {
+  color: rgb(255, 0, 254);
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */

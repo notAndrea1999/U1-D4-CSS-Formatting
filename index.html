@@ -24,9 +24,9 @@
         </div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>Articoli</li>
-            <li>Lavora con noi</li>
+            <li class="my-list">Home</li>
+            <li class="my-list">Articoli</li>
+            <li class="my-list">Lavora con noi</li>
           </ul>
         </nav>
       </header>
@@ -38,7 +38,10 @@
             template per i post
           </h3>
           <br />
-          <p class="mario">di Mario Rossi - pubblicato il 25-10-2020</p>
+          <p class="mario">
+            <i class="fas fa-pen-square" style="color: #b7b8be"></i> di Mario Rossi -
+            <i class="fas fa-clock" style="color: #9b9da1"></i> pubblicato il 25- <br />10-2020
+          </p>
           <br />
 
           <p class="p1">
@@ -58,8 +61,8 @@
 
           <h2 class="formattazione">Formattazione del codice</h2>
           <p class="p3">
-            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.
-            Perciò i passi saranno:
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+            <span>selezionare con i CSS</span>. Perciò i passi saranno:
           </p>
           <br />
           <ol>
@@ -80,8 +83,8 @@
             </caption>
             <thead>
               <tr class="anno">
-                <th>Anno</th>
-                <th>% di utilizzo</th>
+                <th class="my-th">Anno</th>
+                <th class="my-th">% di utilizzo</th>
                 <th>Supporto browsers</th>
               </tr>
             </thead>
@@ -138,6 +141,7 @@
           <br />
           <section>
             <h2 class="novita">Novità</h2>
+            <br />
             <p class="p6">Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
             <br />
 
@@ -152,35 +156,35 @@
         <br />
 
         <aside>
-          <h2>Articoli correlati</h2>
-          <div>
+          <h2 class="articoli">Articoli correlati</h2>
+          <br />
+          <div class="validare">
             <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
               >Validare il codice HTML</a
             >
-            <p>Categoria: develop</p>
-            <p>Data: 18-9-2020</p>
+            <p><i class="fas fa-tag"></i> Categoria: develop</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
           </div>
-
-          <div>
+          <br />
+          <div class="correggere">
             <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
               >Correggere la sintassi</a
             >
-            <p>Categoria: develop</p>
-            <p>Data: 16-9-2020</p>
+            <p><i class="fas fa-tag"></i>Categoria: develop</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
           </div>
-
-          <div>
+          <br />
+          <div class="meno">
             <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
-            <p>Categoria: ottimizzazione</p>
-            <p>Data: 30-9-2020</p>
+            <p><i class="fas fa-tag"></i>Categoria: ottimizzazione</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
           </div>
         </aside>
       </main>
 
-      <hr />
-
       <footer>
         <p>Blog Epicode &copy;2021</p>
+        <br />
         <address>
           Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
           <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy"
