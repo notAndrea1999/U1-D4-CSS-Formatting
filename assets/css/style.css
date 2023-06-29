@@ -12,7 +12,7 @@ body {
   background-image: url(sfondo.png);
   background-size: contain;
 }
-/* HEADER */
+
 header {
   background-color: rgb(0, 136, 170);
   width: 250px;
@@ -20,7 +20,7 @@ header {
   margin-block: 20px;
   margin-inline: auto;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.705);
-  background: linear-gradient(90deg, rgb(0, 136, 170));
+  background: linear-gradient(190deg, rgb(0, 136, 170));
   font-family: "Poppins", sans-serif;
 }
 
@@ -32,12 +32,12 @@ div > p {
 
 .my-list {
   list-style: none;
-  line-height: 15px;
+  line-height: 17px;
   color: white;
   text-align: center;
+  font-size: 12px;
 }
 
-/* MAIN */
 main {
   width: 250px;
   margin: 0 auto;
@@ -77,7 +77,7 @@ article h3 {
   padding-inline: 15px;
   line-height: 15px;
 }
-ul {
+.dot {
   padding-inline-start: 40px;
   padding-right: 20px;
 }
@@ -85,6 +85,12 @@ ul {
 ul li {
   font-size: 12px;
   line-height: 15px;
+}
+
+.my-span {
+  background-color: rgba(211, 211, 211, 0.671);
+  border-radius: 5px;
+  outline: 0.1mm solid lightgrey;
 }
 
 .formattazione {
@@ -120,27 +126,48 @@ ol li {
   line-height: 15px;
 }
 
-.border {
-  border: 0.2px solid rgb(51, 102, 204);
-}
 caption {
   font-size: 13px;
   font-weight: bold;
 }
+
 table {
-  width: 100%;
   text-align: center;
-  padding-inline: 20px;
+  display: inline-block;
+  padding-inline: 15px;
 }
 
 .my-th {
   width: 25%;
+  padding-block: 20px;
+  padding-inline: 10px;
+  border-inline: 0.1px solid rgba(255, 255, 255, 0.247);
+}
+
+.my-th2 {
+  padding-inline: 10px;
 }
 
 .anno {
   background-color: rgb(51, 102, 204);
   color: white;
   font-weight: 100;
+}
+
+.td1 {
+  padding-block: 20px;
+  font-weight: 400;
+}
+
+.td2 {
+  padding-block: 20px;
+  background-color: rgba(211, 211, 211, 0.411);
+}
+
+.td3 {
+  padding-block: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid rgb(51, 102, 204);
 }
 
 .p5 {
@@ -160,11 +187,6 @@ iframe {
   border-radius: 30px;
 }
 
-.novita {
-  text-align: center;
-  font-size: 20px;
-}
-
 section {
   font-size: 12px;
   padding-inline: 15px;
@@ -174,9 +196,29 @@ section {
   margin-inline: 10px;
 }
 
-fieldset button {
+.novita {
+  text-align: center;
+  font-size: 20px;
+}
+
+fieldset {
+  display: flex;
+}
+
+input {
+  width: 130px;
+  border-bottom: 0.5mm dashed;
+  border-top: 0;
+  border-inline: 0;
+}
+
+div button {
   color: white;
   background-color: rgb(51, 102, 204);
+  display: flex;
+  border-inline: 0;
+  border-block: 0;
+  margin-inline-start: 3px;
 }
 
 .articoli {
@@ -193,6 +235,7 @@ fieldset button {
   line-height: 15px;
   background-color: lightgray;
   margin-inline: 10px;
+  outline: 0.5mm solid rgba(128, 128, 128, 0.5);
 }
 
 .validare p {
@@ -201,7 +244,7 @@ fieldset button {
   color: black;
 }
 
-.validare :nth-child(3) {
+.validare :nth-child(4) {
   font-size: 9px;
   text-align: right;
 }
@@ -217,6 +260,7 @@ fieldset button {
   line-height: 15px;
   background-color: lightgray;
   margin-inline: 10px;
+  outline: 0.5mm solid rgba(128, 128, 128, 0.5);
 }
 
 .correggere p {
@@ -225,7 +269,7 @@ fieldset button {
   color: black;
 }
 
-.correggere :nth-child(3) {
+.correggere :nth-child(4) {
   font-size: 9px;
   text-align: right;
 }
@@ -241,6 +285,7 @@ fieldset button {
   line-height: 15px;
   background-color: lightgray;
   margin-inline: 10px;
+  outline: 0.5mm solid rgba(128, 128, 128, 0.5);
 }
 
 .meno p {
@@ -249,7 +294,7 @@ fieldset button {
   color: black;
 }
 
-.meno :nth-child(3) {
+.meno :nth-child(4) {
   font-size: 9px;
   text-align: right;
 }
@@ -265,23 +310,18 @@ footer {
   background-color: rgb(0, 85, 102);
   padding-block: 20px;
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 15px;
   border: 10px;
   margin-block: 20px;
   color: white;
   font-weight: 200;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  background: linear-gradient(182deg, rgb(0 85 102), rgb(30 45 27));
 }
 
 footer a {
-  color: rgb(255, 0, 254);
+  color: rgb(248, 17, 228);
+  font-weight: 400;
+  font-size: 11px;
 }
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
